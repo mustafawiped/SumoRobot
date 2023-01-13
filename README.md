@@ -4,4 +4,4 @@
 
 # SumoRobot - ENG
 ###### This codes, Used in the 2023 Riders Sumo Robot competition.
-###### You can score +100 in 10 - 20 attempts.
+###### You can score +100 in 10 - 20 attempts. 
