@@ -1,0 +1,59 @@
+09.01.2023 Güncelleme
+
+- Evler artık 1 aylık kiralanmaktadır. Ev kiralandıktan 1 ay sonra otomatik olarak oyuncudan alınır.
+- Eve birden fazla kişi girdiğinde çıkamama hatası düzeltildi.
+
+Bu Güncellemeler Garanti kapsamında ücretsiz olarak yapılmıştır. 
+Garanti süresi 18.01.2023 Tarihinde sona erecektir.
+
+--
+14.12.2022 Güncelleme
+
+Ev kiralandığında veya satın alındığında para oyuncunun banka hesabından çekilir.
+Eğer yeterli parası yoksa, yeterli paranız yok diye uyarı verir.
+
+Sistemi startladığınızda Login sisteminin de çalışıyor olması gerekmektedir.
+
+BURAKMRX tarafından yapılan sistemler 1 Ay garantilidir.
+1 aydan fazla süre geçtiğinde, sistemler üzerinde herhangi bir değişiklik yapılmaz.
+( Ev sistemi üzerindeki değişiklikler bir istisna olarak ücretsiz yapılmıştır. )
+
+--
+Aşağıdaki yazılar 30.10.2022 Tarihinde yazılmıştır.
+
+- Scriptin Dil ayarını c_evsystem.lua isimli dosyanın en üst satırlarından yapabilirsiniz.
+
+- Ev satın alma sınırını s_evsystem.lua isimli dosyadan, "evsiniri = 1" isimli değişkenin değerini değiştirerek yapabilirsiniz.
+
+- Scriptte toplamda 33 tane interior bulunmakta. 33 'den fazlasını yazarsanız hata alırsınız.
+
+- "/evolustur" Komutunu değiştirmek için s_evsystem.lua isimli dosyadan ctrl + f ile komutu aratarak değiştirebilirsnz.
+
+- "/kiradancik" Komutunu kullanarak oyuncular eğer bir ev kiralamışlarsa, kiradan çıkarlar.
+
+- Oyuncu bir evi kiraladığında, sadece 1 kez ücret otomatik alınır ve ev sahibine verilir. 
+Diğer kira ücretlerini ise ev sahibi ve kiracı kendi aralarında halletmesi gerekir.
+( Bu sistem günümüz Türkiye sistemine göre uyarlandı. Günümüzde de böyle. )
+
+- Eğer oyuncu Freeroam modunda değilse herhangi bir eve giriş yapınca, ev paneli açılmıyor.
+MTA 'da scripti durdurma, duraklatma, askıya alma vb. Komutlar bulunmamaktadır. Bu yüzden yapılabilecek
+en iyi çözüm olan, paneli açılmama olayına ekledim.
+
+- Satılık evlerin gösterildiği panelde, kiralık ve satılık evler yeşil renkte, kiralık veya satılık olmayan evler ise beyaz renkte
+gözükmektedir.
+
+- Ev oluşturma panelini hangi ACL grubunun açabilmesini ayarlamak için, "s_evsystem.lua" isimli dosyanın,
+"yetkili" isimli değişkenin değerini değiştirmelisiniz. Varsayılan olarak "Console" yetkisine ayarlı.
+
+--KOMUTLAR--
+"evler",
+"evolustur",
+"kiradancik"
+
+ÖNEMLİ:
+evolustur komutunu kullanıp, ev oluşturma panelini açılınca sistem input 'u da açıyor. Yani F paneller dahil t chatini vs.
+kullanamazsınız. Bu durumda F8 komut kısmından tekrar "evolustur" yazıp enter 'a tıklarsanız, paneli kapatırsınız.
+F8 basıp komut yazmak en fazla 3 saniye sürer :)
+
+Projemden memnun kaldıysanız, tekrardan benimle iletişime geçebilirsiniz.
+Saygılarımla.. Burak Şahin.
