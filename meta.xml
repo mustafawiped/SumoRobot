@@ -1,6 +1,0 @@
-<meta>
-<info author="BurakMrx" name="EvSistemi" version="1" type="script"/>
-<script src="c_evsystem.lua" type="client" cache="false"/>
-<script src="s_evsystem.lua" type="server"/>
-<file src="dosya/Font13.ttf"/>
-</meta>
